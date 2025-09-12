@@ -1,0 +1,18 @@
+[
+    {
+      "icon": "MdPlace",
+      "title": "About",
+      "content": "Short about text"
+    },
+    {
+      "icon": "IoCallSharp",
+      "title": "Contact",
+      "content": "support@example.com"
+    },
+    {
+      "icon": "TbMailPlus",
+      "title": "Address",
+      "content": "Ahmedabad, India"
+    }
+  ]
+  
