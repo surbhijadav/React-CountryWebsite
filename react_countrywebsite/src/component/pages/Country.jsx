@@ -1,8 +1,8 @@
 import {useEffect, useState, useTransition} from "react";
-import { getCountryData } from "../api/postApi";
-import { Loader } from "../component/UI/Loader";
-import { CountryCard } from "../component/Layouts/CountryCard";
-import { SearchFilter } from "../component/UI/SearchFilter";
+import { getCountryData } from "../../api/postApi";
+import { Loader } from "../UI/Loader";
+import { CountryCard } from "../Layouts/CountryCard";
+import { SearchFilter } from "../UI/SearchFilter";
 
 export const Country = () => {
 

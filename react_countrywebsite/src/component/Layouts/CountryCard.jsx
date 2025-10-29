@@ -1,5 +1,5 @@
 import { NavLink } from "react-router-dom";
-import { Country } from "../../pages/Country";
+import { Country } from "../pages/Country";
 
 export const CountryCard = ({country}) => {
     const {flags,name,population,region,capital} = country;
@@ -29,6 +29,7 @@ export const CountryCard = ({country}) => {
                     <NavLink to={`/country/${name.common}`}>
                         <button>Read More</button>
                         </NavLink>
+                    
             </div>
     </div>
   </li>  
